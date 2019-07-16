@@ -104,3 +104,39 @@ if(!siteUrl.match(regex)){
 
  return  true;
 }
+
+//function 
+/*
+var bookmarkContainer = document.getElementbyId('bookmarkContainer');
+
+var prevScrollpos = window.pageYOffset;
+bookmarkContainer.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    
+   
+   document.getElementById("navbar").style.top = "0";
+  } else {
+   
+   document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+*/
+
+
+
+///////////////////
+
+/*
+
+volgende stappen:
+een modal/bootstrap popup linken aan de bookmarkers en zorgen dat die de juiste info doorgeeft
+https://getbootstrap.com/docs/4.0/components/modal/
+
+-de search functie laten werken
+-eventueel ook via een modal popup
+
+-de links van bovenaan in de navbar links in het menu zetten
+
+*/

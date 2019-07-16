@@ -23,21 +23,21 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Notieties<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Herinneringen</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Labels</a>
-          </li>
-          <li class="nav-item">
+            <li class="nav-item active">
+               <a class="nav-link" href="#">Notieties<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Herinneringen</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link disabled" href="#">Labels</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link disabled" href="#">Gearchiveerd</a>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link disabled" href="#">Deleted</a>
-        </li>
+          </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -72,30 +72,52 @@
               </form>
         </div>
       </div>
-
-
-      <div  class="container">
-        <!-- Example row of columns -->
-        <div id="bookmarksResults" class="row">
-          <div  class="col-md-3 m-1">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div> 
-          <div  class="col-md-3 m-1">
-              <p id="test">  is a template for a simple thing</p>
+      <div class="grid">
+          
+          <div id="menu" class="span-col-2">
+              <ul>
+                <li class="menu-left">
+                  <img class="svg" src="images/arrow.svg" alt="arrow">
+                  <h5 id="categories">lalalal</h5>
+                </li>
+                <li class="menu-left">
+                    <img class="svg" src="images/arrow.svg" alt="arrow">
+                    <h5 id="categories">lalalal</h5>
+                </li>
+                <li class="menu-left">
+                    <img class="svg" src="images/arrow.svg" alt="arrow">
+                    <h5 id="categories">lalalal</h5>
+                </li>
+                <li class="menu-left">
+                    <img class="svg" src="images/arrow.svg" alt="arrow">
+                    <h5 id="categories">lalalal</h5>
+                </li>
+              </ul>
             </div>
+          
+          <div id="bookmarkContainer" class="container span-col-10" >
 
-        </div> <!-- /row -->
-        <hr>
-      
-      </div> <!-- /container -->
+            <!--row of columns -->
+            <div id="bookmarksResults" class="row">
+              <div  class="col-md-3 m-1">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              </div> 
+              <div  class="col-md-3 m-1">
+                  <p id="test">  is a template for a simple thing</p>
+                </div>
 
-    </main>
-
-    <footer class="container">
-      <p>&copy; Last update: 15/07/2019</p>
-    </footer>
+            </div> <!-- /row -->
+            
+          </div> <!-- /container -->
+          
+        </main>
+      </div>
+      <hr>
+        <footer class="container">
+          <p>&copy; Last update: 15/07/2019</p>
+        </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
