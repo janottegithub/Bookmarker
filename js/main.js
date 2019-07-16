@@ -139,4 +139,5 @@ https://getbootstrap.com/docs/4.0/components/modal/
 
 -de links van bovenaan in de navbar links in het menu zetten
 
+-make it propperly responsive
 */
